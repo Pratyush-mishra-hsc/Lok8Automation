@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Health Check for Readers(failed)">
+    <classes>
+      <class name="LocationServices.Health.HealthReaderTestCases">
+        <methods>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="ReaderHealthValidation"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- LocationServices.Health.HealthReaderTestCases -->
+      <class name="BaseTest.session">
+        <methods>
+          <include name="quit"/>
+          <include name="doLogin"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- BaseTest.session -->
+    </classes>
+  </test> <!-- Health Check for Readers(failed) -->
+</suite> <!-- Failed suite [Suite] -->
